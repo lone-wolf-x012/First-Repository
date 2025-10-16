@@ -4,7 +4,7 @@ import java.net.*;
 public class ServerFile {
     static final int PUERTO = 5001;
     // Ruta de almacenamiento en el servidor
-    static final String SERVER_FOLDER = "C:\\Users\\omfrs\\OneDrive\\Imágenes\\Feedback\\Servidor\\";
+    static final String SERVER_FOLDER = "X:\\Imagenes\\";
 
     public static void main(String[] args) {
         try (ServerSocket serverSocket = new ServerSocket(PUERTO)) {
